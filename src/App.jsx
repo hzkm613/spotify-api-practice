@@ -8,11 +8,12 @@ const artistId = "0PBXAVipMP5B7A554hJX0R";
 function App() {
   return (
     <Router>
-      <div className="flex h-screen">
+      <div className="flex w-screen h-screen">
         <Navbar />
         <div className="flex-1">
           <Routes>
-            <Route path="/" element={<Home artistId={artistId} />} />
+            {/*<Route path="/" element={<Home artistId={artistId} />} />*/}
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
