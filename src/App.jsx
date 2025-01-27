@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 
+const artistId = "0PBXAVipMP5B7A554hJX0R";
+
 function App() {
   return (
     <Router>
@@ -10,7 +12,7 @@ function App() {
         <Navbar />
         <div className="flex-1">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home artistId={artistId} />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </div>

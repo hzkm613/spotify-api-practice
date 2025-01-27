@@ -6,7 +6,7 @@ import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col items-center w-1/2 h-full bg-gray-800 text-white p-4">
+    <div className="flex flex-col items-center w-1/10 h-full bg-gray-800 text-white p-4">
       <div className="flex justify-center mb-4">
         <img
           src={Logo}
