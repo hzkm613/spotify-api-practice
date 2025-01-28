@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/image/logo.png";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
+import StoreIcon from "@mui/icons-material/Store";
 
 const Navbar = () => {
   return (
@@ -24,6 +25,11 @@ const Navbar = () => {
           <Link to={"/about"}>
             <SmartToyIcon className="text-white" />
           </Link>
+        </li>
+        <li>
+          <a href="https://drgabba.com/en-usd" target="_blank">
+            <StoreIcon className="text-white" />
+          </a>
         </li>
       </ul>
     </div>
